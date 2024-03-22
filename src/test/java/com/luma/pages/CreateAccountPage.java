@@ -25,6 +25,8 @@ public class CreateAccountPage {
     WebElement createAccountBtn;
     @FindBy(xpath = "//div[.='Thank you for registering with Main Website Store.']")
     WebElement successMes;
+    //just a comment
+    //for practice
     public void fillNameLastName(String firstname,String lastname){
         this.firstname.sendKeys(firstname);
         this.lastname.sendKeys(lastname);
